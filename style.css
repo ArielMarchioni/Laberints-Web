@@ -167,3 +167,44 @@ a{
 	text-transform: uppercase;
 	background: transparent;
 }
+.footer{
+	background-color: #0dad68;
+	padding: 40px 0;
+	color: #fff;
+}
+
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logofooter{
+	display: flex;
+	align-items: center;
+	margin-bottom: 14px;
+}
+
+.laberints-name{
+	font-size: 30px;
+	font-weight: 500px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.footer .privacy a{
+	color: #fff;
+	font-size: 14px;
+}
+
+.copyright{
+	font-size: 12px;
+	color: #fff;
+
+}
+
+.blanco{
+	color: #fff;
+}
