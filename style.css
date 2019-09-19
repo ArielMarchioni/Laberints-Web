@@ -208,3 +208,88 @@ a{
 .blanco{
 	color: #fff;
 }
+@media ( max-width: 414px){
+	.hero{
+	background-image: url(img/img-hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding: 10px 0;
+	max-height: 403px;
+
+	
+    }
+
+	.menu{
+		display: none;
+	}
+	
+	.hero-text{
+		display: none;
+	}
+	
+	.hero-title{
+	
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
+	margin-bottom: 24px;
+	max-width: 414px;
+	
+    }
+    
+    .grid{
+	
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    }
+
+    .flex{
+	display: flex;
+	flex-flow: column;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+
+    }
+
+    .flexy{
+	flex-direction: column;
+    }
+
+    .coronaymapa{
+	max-width: 182px;
+    }
+
+    .section{
+	padding: 60px 0;
+	text-align: center;
+	
+    }
+
+    .titleh2{
+	font-size: 28px;
+	margin-bottom: 20px;
+	
+    }
+
+
+
+    .footer-content{
+	display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+	
+
+    } 
+
+    .logofooter{
+	display: flex;
+	align-items: center;
+	margin-bottom: 14px;
+    }
+
+}
+
