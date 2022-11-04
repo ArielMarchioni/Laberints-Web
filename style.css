@@ -5,6 +5,10 @@
 
 
 }
+
+body{
+	min-width: 414px;
+}
 a{
 	text-decoration: none;
 	color: #676767;
@@ -208,7 +212,7 @@ a{
 .blanco{
 	color: #fff;
 }
-@media ( max-width: 414px){
+@media ( max-width: 751px){
 	.hero{
 	background-image: url(img/img-hero.jpg);
 	background-size: cover;
